@@ -1,0 +1,13 @@
+{
+    "name": "tsoffereins/symbol-sorter",
+    "description": "A PHP library that helps you to sort your symbols",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Thomas Offereins",
+            "email": "tsoffereins@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
