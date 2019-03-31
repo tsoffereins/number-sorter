@@ -1,13 +1,32 @@
 {
-    "name": "tsoffereins/symbol-sorter",
-    "description": "A PHP library that helps you to sort your symbols",
+    "name": "tsoffereins/number-sorter",
+    "description": "A PHP library that helps you sort your numbers alphabetically.",
     "type": "library",
+    "keywords": [
+        "number",
+        "sort",
+        "alphabetically"
+    ],
+    "homepage": "https://github.com/tsoffereins/number-sorter",
+    "license": "MIT",
     "authors": [
         {
             "name": "Thomas Offereins",
             "email": "tsoffereins@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {}
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.6",
+        "kwn/number-to-words": "^1.6"
+    },
+    "require-dev": {
+        "phpspec/prophecy": "~1.0",
+        "phpunit/phpunit": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NumberSorter\\": "src/"
+        }
+    }
 }
